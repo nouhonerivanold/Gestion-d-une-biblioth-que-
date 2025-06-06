@@ -1,0 +1,142 @@
+/* Réinitialisation */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corps de la page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f8fc;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+/* Conteneur principal */
+.form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre */
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0074b7;
+}
+
+/* Étiquettes et champs */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+}
+
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+}
+
+input:focus,
+select:focus {
+    border-color: #0074b7;
+    outline: none;
+}
+
+/* Liste des emprunts */
+.listes {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    overflow-y: auto;
+    background-color: #eef6ff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+.emprunt-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.emprunt-item p {
+    margin: 5px 0;
+}
+
+.emprunt-item ul {
+    margin: 5px 0 5px 20px;
+}
+
+
+.listes p {
+    margin: 8px 0 4px;
+    font-weight: 500;
+    color: #333;
+}
+
+.listes input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+/* Boutons */
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    background-color: #5c39f8;
+    color: white;
+    margin-right: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+input[type="reset"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+input[type="reset"]:hover {
+    background-color: #c82333;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .form {
+        padding: 20px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}

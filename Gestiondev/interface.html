@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./interface.css">
+    <title>Interfaces</title>
+</head>
+<body>
+    <header>
+            <h1>Gestion d'une Bibliotheque</h1>
+            <h2>Technologies Web et Administration des SGBD</h2>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a target="iframe">A PROPOS</a>
+                <ul>
+                    <li><a href="formulaire.html" target="iframe">Date de creation</a></li>
+                    <li><a href="triangularisation.html" target="iframe">resoudre systeme</a></li>
+                    <li><a href="tableaudynamique.html" target="iframe">Tableau dynamique</a></li>
+                </ul>
+            </li>
+            <li>
+                <a target="iframe">EFFECTUER DES AJOUTS</a>
+                <ul>
+                    <li><a href="/Gestiondev/views/Livre.php" target="iframe">Ajouter Livre</a></li>
+                    <li><a href="/Gestiondev/views/Adherent.html" target="iframe">Ajouter Adherent</a></li>
+                    <li><a href="/Gestiondev/views/Emprunt.php" target="iframe">Enregistrer Emprunt</a></li>
+                    <li><a href="/Gestiondev/views/retour.php" target="iframe">Enregistrer un retour</a></li>
+                </ul>
+            </li>
+            <li>
+                <a target="iframe">CONSULTER LES LISTES</a>
+                <ul>
+                    <li><a href="/Gestiondev/views/listeAdherent.php" target="iframe">Listes Adherents</a></li>
+                    <li><a href="/Gestiondev/views/listeAdherentSuspendus.php" target="iframe">Adherents suspendus</a></li>
+                    <li><a href="/Gestiondev/views/listeLivre.php" target="iframe">Listes Livre</a></li>
+                </ul>
+            </li>
+            <li>
+                <a target="iframe">FONCTIONNALITE AVANCE</a>
+                <ul>
+                    <li><a href="/Gestiondev/views/LivreXML.html" target="iframe">Ajouter un livre</a></li>
+                    <li><a href="/Gestiondev/controller/AfficherXML.php" target="iframe">Afficher Livres</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>   
+    <section>
+        <iframe name="iframe" src="/Gestiondev/views/Livre.php" style="border:1px solid black" frameborder="0"></iframe>
+
+    </section>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.table-responsive {
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-action {
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+.btn-modifier {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-supprimer {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+}
+
+.modal-content {
+    padding: 20px;
+}

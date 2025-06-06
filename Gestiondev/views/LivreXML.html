@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/LivreXML.css">
+    <title>Enregistrement d'un Livre</title>
+</head>
+<body>
+    <div class="form" >
+        <form action="../controller/controllerLivre.php" method="post">
+            <h1>Proprietaire</h1>
+            <div class="field">
+                <label for="nom">Titre:</label>
+                <input type="text" name="titre" id="titre" placeholder="entrer le titre du livre" required>
+            </div>
+            <div class="field">
+                <label for="autreur">Auteur: </label>
+                <input type="text" name="auteur" id="auteur" placeholder="entrer l'auteur du livre'" required>
+            </div>
+
+            
+            <label for="date">Date: </label>
+            <input type="tel" name="date" id="date" placeholder="entrer la date d'edition" required>
+
+            <input type="submit" value="Enregistrer">
+        </form>
+    </div>
+</body>
+</html>

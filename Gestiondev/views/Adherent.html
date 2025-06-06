@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/Adherent.css">
+    <title>Enregistrement d'un Adherent</title>
+</head>
+<body>
+    <div class="form" >
+        <form action="../controller/controllerAdherent.php" method="post">
+            <h1>Adherent</h1>
+            <div class="field">
+                <label for="nom">Nom:</label>
+                <input type="text" name="nom" id="nom" placeholder="entrer votre nom" required>
+            </div>
+            <div class="field">
+                <label for="adresse">Adresse: </label>
+                <input type="text" name="adresse" id="adresse" placeholder="entrer l'adresse de residence" required>
+            </div>
+            <input type="submit" value="Enregistrer">
+        </form>
+    </div>
+</body>
+</html>
